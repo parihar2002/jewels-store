@@ -1,3 +1,5 @@
+import '../styles/globals.css';
+
 export const metadata = {
   title: "JewelsCart",
   description: "Shop premium imitation jewelry online",
