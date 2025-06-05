@@ -1,5 +1,5 @@
 
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/common/navbar";
 
 function HomePage() {
     
@@ -7,8 +7,6 @@ function HomePage() {
     <div>
         
       <Navbar />
-
-
 
 <div className="relative w-full h-[380px]" id="home">
     <div className="absolute inset-0 opacity-70">
