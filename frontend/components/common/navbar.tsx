@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-import LoginModal from "@/components/LoginModal";
+import Login from "@/app/login/page";
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return(
@@ -33,7 +33,7 @@ function Navbar() {
         Login
     </button>
 
-    {isOpen && <LoginModal onClose={() => setIsOpen(false)} />}
+    {isOpen && <Login onClose={() => setIsOpen(false)} />}
     
 
 

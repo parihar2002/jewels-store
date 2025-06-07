@@ -128,7 +128,7 @@ export default function LoginModal({ onClose }: LoginModalProps) {
           className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
           onClick={handleClose}
         >
-          ✕
+          ✕ 
         </button>
         <h2 className="text-lg font-semibold mb-4">Login</h2>
         {step === "phone" ? (
